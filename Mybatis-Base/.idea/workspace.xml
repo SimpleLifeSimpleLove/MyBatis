@@ -49,7 +49,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/jdbc/lib/mysql-connector-java-5.1.37-bin.jar!/" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
@@ -177,26 +177,26 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="665" y="336" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604841495044" />
-    <state width="1877" height="299" key="GridCell.Tab.0.bottom" timestamp="1604843822796">
+    <state width="1877" height="299" key="GridCell.Tab.0.bottom" timestamp="1604844037714">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="299" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604843822796" />
-    <state width="1877" height="299" key="GridCell.Tab.0.center" timestamp="1604843822796">
+    <state width="1877" height="299" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604844037714" />
+    <state width="1877" height="299" key="GridCell.Tab.0.center" timestamp="1604844037713">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="299" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604843822796" />
-    <state width="1877" height="299" key="GridCell.Tab.0.left" timestamp="1604843822796">
+    <state width="1877" height="299" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604844037713" />
+    <state width="1877" height="299" key="GridCell.Tab.0.left" timestamp="1604844037713">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="299" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604843822796" />
-    <state width="1877" height="299" key="GridCell.Tab.0.right" timestamp="1604843822796">
+    <state width="1877" height="299" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604844037713" />
+    <state width="1877" height="299" key="GridCell.Tab.0.right" timestamp="1604844037714">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="299" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604843822796" />
-    <state x="463" y="165" key="SettingsEditor" timestamp="1604843855561">
+    <state width="1877" height="299" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604844037714" />
+    <state x="463" y="165" key="SettingsEditor" timestamp="1604843922247">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="463" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604843855561" />
+    <state x="463" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604843922247" />
     <state x="334" y="224" key="new project wizard" timestamp="1604843632152">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
