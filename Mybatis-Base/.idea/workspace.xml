@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42655b57-4bb7-43cf-aee8-15e077491716" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-02/src/main/java/com/wxx/dao/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-02/src/main/java/com/wxx/dao/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-02/src/main/java/com/wxx/dao/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-02/src/main/java/com/wxx/dao/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-02/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-02/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-02/src/test/java/com/wxx/dao/UserDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-02/src/test/java/com/wxx/dao/UserDaoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-02/target/classes/com/wxx/dao/impl/UserDaoImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-02/target/classes/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-02/target/classes/mybatis-config.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +90,7 @@
       <recent name="D:\Code\github\Mybatis\Mybatis-Base\jdbc\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserDaoTest.testDeleteUserById">
+  <component name="RunManager" selected="JUnit.UserDaoTest.testGetList (1)">
     <configuration name="UserDaoTest.testAddUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis-02" />
       <extension name="coverage">
@@ -180,11 +173,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserDaoTest.testGetList (1)" />
+        <item itemvalue="JUnit.UserDaoTest.testAddUser" />
         <item itemvalue="JUnit.UserDaoTest.testDeleteUserById" />
         <item itemvalue="JUnit.UserDaoTest.testUpdateUser" />
-        <item itemvalue="JUnit.UserDaoTest.testAddUser" />
         <item itemvalue="JUnit.UserDaoTest.testGetUserById" />
-        <item itemvalue="JUnit.UserDaoTest.testGetList (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -226,7 +219,8 @@
       <workItem from="1604884531857" duration="261000" />
       <workItem from="1604887386649" duration="923000" />
       <workItem from="1604889192607" duration="1197000" />
-      <workItem from="1604890425189" duration="1359000" />
+      <workItem from="1604890425189" duration="2272000" />
+      <workItem from="1604913874882" duration="1313000" />
     </task>
     <servers />
   </component>
@@ -246,22 +240,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="665" y="336" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604841495044" />
-    <state width="1877" height="263" key="GridCell.Tab.0.bottom" timestamp="1604891798670">
+    <state width="1877" height="263" key="GridCell.Tab.0.bottom" timestamp="1604913911100">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="263" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604891798670" />
-    <state width="1877" height="263" key="GridCell.Tab.0.center" timestamp="1604891798670">
+    <state width="1877" height="263" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604913911100" />
+    <state width="1877" height="263" key="GridCell.Tab.0.center" timestamp="1604913911100">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="263" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604891798670" />
-    <state width="1877" height="263" key="GridCell.Tab.0.left" timestamp="1604891798669">
+    <state width="1877" height="263" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604913911100" />
+    <state width="1877" height="263" key="GridCell.Tab.0.left" timestamp="1604913911099">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="263" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604891798669" />
-    <state width="1877" height="263" key="GridCell.Tab.0.right" timestamp="1604891798670">
+    <state width="1877" height="263" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604913911099" />
+    <state width="1877" height="263" key="GridCell.Tab.0.right" timestamp="1604913911100">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="263" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604891798670" />
+    <state width="1877" height="263" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604913911100" />
     <state x="463" y="165" width="1217" height="710" key="SettingsEditor" timestamp="1604890377155">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
