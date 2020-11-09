@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42655b57-4bb7-43cf-aee8-15e077491716" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MybatisNote/Mybatis课堂笔记.md" beforeDir="false" afterPath="$PROJECT_DIR$/MybatisNote/Mybatis课堂笔记.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-02/src/main/java/com/wxx/dao/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-02/src/main/java/com/wxx/dao/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-02/src/main/java/com/wxx/dao/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-02/src/main/java/com/wxx/dao/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-02/src/test/java/com/wxx/dao/UserDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-02/src/test/java/com/wxx/dao/UserDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-02/target/classes/com/wxx/dao/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-02/target/classes/com/wxx/dao/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-02/target/classes/com/wxx/dao/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-02/target/classes/com/wxx/dao/mapper/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-02/target/test-classes/com/wxx/dao/UserDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-02/target/test-classes/com/wxx/dao/UserDaoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,21 +86,28 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/jdbc/lib/mysql-connector-java-5.1.37-bin.jar!/" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/mybatis-03/src/main/resources" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode.XML" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.wxx.utils" />
+      <recent name="com.wxx.pojo" />
+      <recent name="com.wxx.dao" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\Code\github\Mybatis\Mybatis-Base\mybatis-03\src\main\resources" />
+      <recent name="D:\Code\github\Mybatis\Mybatis-Base\mybatis-03\src\main\java\com\wxx\dao" />
       <recent name="D:\Code\github\Mybatis\Mybatis-Base\jdbc\lib" />
       <recent name="D:\Code\github\Mybatis\Mybatis-Base\jdbc\src" />
       <recent name="D:\Code\github\Mybatis\Mybatis-Base\jdbc\src\main\java" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserDaoTest.testGetList (1)">
-    <configuration name="UserDaoTest.testAddUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.UserDaoTest.testGetList">
+    <configuration name="UserDaoTest.testAddUserUsingMap" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis-02" />
       <extension name="coverage">
         <pattern>
@@ -101,7 +117,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.wxx.dao" />
       <option name="MAIN_CLASS_NAME" value="com.wxx.dao.UserDaoTest" />
-      <option name="METHOD_NAME" value="testAddUser" />
+      <option name="METHOD_NAME" value="testAddUserUsingMap" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -139,8 +155,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserDaoTest.testGetUserById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis-02" />
+    <configuration name="UserDaoTest.testGetList" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-03" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.wxx.dao.*" />
@@ -149,13 +165,13 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.wxx.dao" />
       <option name="MAIN_CLASS_NAME" value="com.wxx.dao.UserDaoTest" />
-      <option name="METHOD_NAME" value="testGetUserById" />
+      <option name="METHOD_NAME" value="testGetList" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserDaoTest.testUpdateUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserDaoTest.testGetUserLike" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis-02" />
       <extension name="coverage">
         <pattern>
@@ -165,7 +181,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.wxx.dao" />
       <option name="MAIN_CLASS_NAME" value="com.wxx.dao.UserDaoTest" />
-      <option name="METHOD_NAME" value="testUpdateUser" />
+      <option name="METHOD_NAME" value="testGetUserLike" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -173,11 +189,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserDaoTest.testGetList (1)" />
-        <item itemvalue="JUnit.UserDaoTest.testAddUser" />
+        <item itemvalue="JUnit.UserDaoTest.testGetList" />
+        <item itemvalue="JUnit.UserDaoTest.testGetUserLike" />
         <item itemvalue="JUnit.UserDaoTest.testDeleteUserById" />
-        <item itemvalue="JUnit.UserDaoTest.testUpdateUser" />
-        <item itemvalue="JUnit.UserDaoTest.testGetUserById" />
+        <item itemvalue="JUnit.UserDaoTest.testAddUserUsingMap" />
+        <item itemvalue="JUnit.UserDaoTest.testGetList (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -220,7 +236,7 @@
       <workItem from="1604887386649" duration="923000" />
       <workItem from="1604889192607" duration="1197000" />
       <workItem from="1604890425189" duration="2272000" />
-      <workItem from="1604913874882" duration="1313000" />
+      <workItem from="1604913874882" duration="3490000" />
     </task>
     <servers />
   </component>
@@ -240,29 +256,29 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="665" y="336" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604841495044" />
-    <state width="1877" height="263" key="GridCell.Tab.0.bottom" timestamp="1604913911100">
+    <state width="1877" height="189" key="GridCell.Tab.0.bottom" timestamp="1604925237311">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="263" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604913911100" />
-    <state width="1877" height="263" key="GridCell.Tab.0.center" timestamp="1604913911100">
+    <state width="1877" height="189" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604925237311" />
+    <state width="1877" height="189" key="GridCell.Tab.0.center" timestamp="1604925237310">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="263" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604913911100" />
-    <state width="1877" height="263" key="GridCell.Tab.0.left" timestamp="1604913911099">
+    <state width="1877" height="189" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604925237310" />
+    <state width="1877" height="189" key="GridCell.Tab.0.left" timestamp="1604925237310">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="263" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604913911099" />
-    <state width="1877" height="263" key="GridCell.Tab.0.right" timestamp="1604913911100">
+    <state width="1877" height="189" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604925237310" />
+    <state width="1877" height="189" key="GridCell.Tab.0.right" timestamp="1604925237311">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="263" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604913911100" />
-    <state x="463" y="165" width="1217" height="710" key="SettingsEditor" timestamp="1604890377155">
+    <state width="1877" height="189" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604925237311" />
+    <state x="463" y="165" width="1217" height="710" key="SettingsEditor" timestamp="1604925335740">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="463" y="165" width="1217" height="710" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604890377155" />
-    <state x="334" y="224" key="new project wizard" timestamp="1604843632152">
+    <state x="463" y="165" width="1217" height="710" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1604925335740" />
+    <state x="334" y="224" key="new project wizard" timestamp="1604925039921">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="334" y="224" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1604843632152" />
+    <state x="334" y="224" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1604925039921" />
   </component>
 </project>
