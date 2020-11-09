@@ -109,7 +109,7 @@ Spring   SpringMVC    SpringBoot
 
 搭建数据库
 
-```java
+```sql
 CREATE DATABASE `mybatis`;
 
 USE `mybatis`;
@@ -460,7 +460,7 @@ namespace中的包名要和 Dao/mapper 接口的包名一致！
     </insert>
 ```
 
-```xml
+```java
     @Test
     public void addUser2(){
         SqlSession sqlSession = MybatisUtils.getSqlSession();
