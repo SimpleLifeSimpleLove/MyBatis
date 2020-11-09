@@ -3,6 +3,7 @@ package com.wxx.dao;
 import com.wxx.pojo.User;
 
 import java.util.List;
+import java.util.Map;
 
 /**
  * Date: 2020/11/8 19:37
@@ -24,4 +25,14 @@ public interface UserMapper {
 
     // 删除一个用户
     void deleteUserById(int id);
+
+    /*
+        万能的 map
+     */
+    void addUserUsingMap(Map<String, Object> map);
+
+    /*
+        模糊查询
+     */
+    List<User> getUserLike(String value);
 }

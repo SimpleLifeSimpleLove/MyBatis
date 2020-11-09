@@ -11,5 +11,6 @@
 
     <artifactId>mybatis-02</artifactId>
 
+    <!-- 此模块演示MyBatis处理增删改查问题 -->
 
 </project>
