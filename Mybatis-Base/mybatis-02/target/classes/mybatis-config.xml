@@ -17,6 +17,7 @@
     </environments>
 
     <!-- 每一个mapper.xml 都需要在NyBatis核心配置文件中注册 -->
+    <!-- 只有配置了 mappers 信息后，MyBatis 才知道去哪里加载 Mapper 映射文件 -->
     <mappers>
         <mapper resource="com/wxx/dao/mapper/UserMapper.xml"/>
     </mappers>
