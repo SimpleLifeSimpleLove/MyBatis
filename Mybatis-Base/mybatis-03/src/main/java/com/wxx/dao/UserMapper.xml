@@ -13,11 +13,11 @@
         resultType : SQL语句执行的返回值
         parameterType : 参数类型
      -->
-    <select id="getList" resultType="com.wxx.pojo.User">
+    <select id="getList" resultType="User">
         select * from mybatis.user;
     </select>
 
-    <select id="getUserById" parameterType="int" resultType="com.wxx.pojo.User">
+    <select id="getUserById" parameterType="int" resultType="User">
         select * from mybatis.user where id = #{id};
     </select>
 
@@ -26,12 +26,12 @@
 
     <!-- insert插入语句 -->
     <!-- #{id}, #{name}, #{pwd} 是对象中的属性 -->
-    <insert id="addUser" parameterType="com.wxx.pojo.User">
+    <insert id="addUser" parameterType="User">
         insert into mybatis.user (id, name, pwd) values (#{id}, #{name}, #{pwd});
     </insert>
 
     <!-- update修改用户 -->
-    <update id="updateUser" parameterType="com.wxx.pojo.User">
+    <update id="updateUser" parameterType="User">
         update mybatis.user set name=#{name}, pwd=#{pwd} where id=#{id};
     </update>
 
@@ -57,7 +57,7 @@
         模糊查询
         select * from mybatis.user where name like #{value};   Java代码层面需要增加 %
     -->
-    <select id="getUserLike" resultType="com.wxx.pojo.User">
+    <select id="getUserLike" resultType="User">
         select * from mybatis.user where name like "%"#{value}"%";  -- Java代码层面不需要增加 %
     </select>
 

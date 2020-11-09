@@ -1,9 +1,12 @@
 package com.wxx.pojo;
 
+import org.apache.ibatis.type.Alias;
+
 /**
  * Date: 2020/11/8 19:34
  * Content:
  */
+@Alias("User")
 public class User {
 
     private int id;

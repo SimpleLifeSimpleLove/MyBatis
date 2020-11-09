@@ -11,6 +11,6 @@
 
     <artifactId>mybatis-03</artifactId>
 
-    <!-- 此模块演示MyBatis配置 -->
+    <!-- 此模块说明MyBatis核心配置文件使用 -->
 
 </project>
