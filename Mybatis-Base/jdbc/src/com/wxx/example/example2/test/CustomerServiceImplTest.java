@@ -1,6 +1,7 @@
 package com.wxx.example.example2.test;
 
 import com.wxx.example.example2.pojo.Customer;
+import com.wxx.example.example2.service.ICustomerService;
 import com.wxx.example.example2.service.impl.CustomerServiceImpl;
 import com.wxx.util.JDBCUtils;
 import org.junit.Test;
@@ -14,7 +15,7 @@ import java.util.List;
  * Content: junit 测试
  */
 public class CustomerServiceImplTest {
-    private CustomerServiceImpl dao = new CustomerServiceImpl();
+    private ICustomerService dao = new CustomerServiceImpl();
 
     @Test
     public void testInsert() {
