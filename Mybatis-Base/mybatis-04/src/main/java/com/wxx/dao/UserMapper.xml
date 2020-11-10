@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<!-- namespace : 绑定一个对应的Dao/Mapper接口 -->
+<!-- namespace中的包名要和Mapper接口的包名一致 -->
+<mapper namespace="com.wxx.dao.UserMapper">
+
+    <!-- select查询语句 -->
+    <!--
+        id : 就是对应的namespace中的方法名
+        resultType : SQL语句执行的返回值
+        parameterType : 参数类型
+     -->
+    <select id="getList" resultType="User">
+        select * from mybatis.user;
+    </select>
+
+    <select id="getUserById" parameterType="int" resultType="User">
+        select * from mybatis.user where id = #{id};
+    </select>
+
+
+
+
+    <!-- insert插入语句 -->
+    <!-- #{id}, #{name}, #{pwd} 是对象中的属性 -->
+    <insert id="addUser" parameterType="User">
+        insert into mybatis.user (id, name, pwd) values (#{id}, #{name}, #{pwd});
+    </insert>
+
+    <!-- update修改用户 -->
+    <update id="updateUser" parameterType="User">
+        update mybatis.user set name=#{name}, pwd=#{pwd} where id=#{id};
+    </update>
+
+    <!-- delete删除用户 -->
+    <delete id="deleteUserById" parameterType="int">
+        delete from mybatis.user where id = #{id};
+    </delete>
+
+
+
+
+    <!--
+        万能的 map
+    -->
+    <!-- #{userId}, #{userName}, #{password} 是map中的key -->
+    <insert id="addUserUsingMap" parameterType="map">
+        insert into mybatis.user (id, name, pwd) values (#{userId}, #{userName}, #{password});
+    </insert>
+
+
+
+    <!--
+        模糊查询
+        select * from mybatis.user where name like #{value};   Java代码层面需要增加 %
+    -->
+    <select id="getUserLike" resultType="User">
+        select * from mybatis.user where name like "%"#{value}"%";  -- Java代码层面不需要增加 %
+    </select>
+
+
+</mapper>
