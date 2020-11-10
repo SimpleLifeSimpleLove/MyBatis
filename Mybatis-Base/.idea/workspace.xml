@@ -3,13 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="42655b57-4bb7-43cf-aee8-15e077491716" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-03/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-03/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-03/src/main/java/com/wxx/dao/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-03/src/main/java/com/wxx/dao/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-03/src/main/java/com/wxx/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-03/src/main/java/com/wxx/pojo/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-03/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-03/src/main/resources/mybatis-config.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-03/target/classes/com/wxx/dao/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-03/target/classes/com/wxx/dao/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-03/target/classes/com/wxx/pojo/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-03/target/classes/com/wxx/pojo/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-03/target/classes/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-03/target/classes/mybatis-config.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-03/src/main/java/com/wxx/utils/MyBatisUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-03/src/main/java/com/wxx/utils/MyBatisUtils.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -241,7 +235,9 @@
       <workItem from="1604887386649" duration="923000" />
       <workItem from="1604889192607" duration="1197000" />
       <workItem from="1604890425189" duration="2272000" />
-      <workItem from="1604913874882" duration="6653000" />
+      <workItem from="1604913874882" duration="6738000" />
+      <workItem from="1604969424403" duration="76000" />
+      <workItem from="1604998550814" duration="1540000" />
     </task>
     <servers />
   </component>
@@ -261,22 +257,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="665" y="336" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604841495044" />
-    <state width="1877" height="307" key="GridCell.Tab.0.bottom" timestamp="1604928455090">
+    <state width="1877" height="307" key="GridCell.Tab.0.bottom" timestamp="1604928549396">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="307" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604928455090" />
-    <state width="1877" height="307" key="GridCell.Tab.0.center" timestamp="1604928455090">
+    <state width="1877" height="307" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1604928549396" />
+    <state width="1877" height="307" key="GridCell.Tab.0.center" timestamp="1604928549396">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="307" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604928455090" />
-    <state width="1877" height="307" key="GridCell.Tab.0.left" timestamp="1604928455089">
+    <state width="1877" height="307" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1604928549396" />
+    <state width="1877" height="307" key="GridCell.Tab.0.left" timestamp="1604928549396">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="307" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604928455089" />
-    <state width="1877" height="307" key="GridCell.Tab.0.right" timestamp="1604928455090">
+    <state width="1877" height="307" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1604928549396" />
+    <state width="1877" height="307" key="GridCell.Tab.0.right" timestamp="1604928549396">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="307" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604928455090" />
+    <state width="1877" height="307" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1604928549396" />
     <state width="278" height="477" key="HiddenNamespacesPopup" timestamp="1604925837429">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
