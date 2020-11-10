@@ -7,59 +7,31 @@
 <!-- namespace中的包名要和Mapper接口的包名一致 -->
 <mapper namespace="com.wxx.dao.UserMapper">
 
+    <!-- 结果集映射，目的是解决数据库中的字段和pojo中的字段不一致的问题 -->
+    <resultMap id="UserMap" type="User">
+        <!-- column : 数据库中的字段; property : pojo中实体类中的属性 -->
+        <!-- 只需要映射不一样的字段即可 -->
+        <!--<result column="id" property="id"/>-->
+        <!--<result column="name" property="name"/>-->
+        <result column="pwd" property="password"/>
+    </resultMap>
+
     <!-- select查询语句 -->
     <!--
         id : 就是对应的namespace中的方法名
         resultType : SQL语句执行的返回值
         parameterType : 参数类型
+        resultMap : 结果集映射
+
+        select id,name,pwd from mybatis.user where id = #{id};
+        pojo中User的三个字段为id,name,password，其中password不能对应数据库中的pwd
+        解决方式：
+            方式一：查询的时候起别名
+                select id,name,pwd as password from mybatis.user where id = #{id};
+            方式二：ResultMap
      -->
-    <select id="getList" resultType="User">
-        select * from mybatis.user;
+    <select id="getUserById" parameterType="int" resultMap="UserMap">
+        select id,name,pwd from mybatis.user where id = #{id};
     </select>
-
-    <select id="getUserById" parameterType="int" resultType="User">
-        select * from mybatis.user where id = #{id};
-    </select>
-
-
-
-
-    <!-- insert插入语句 -->
-    <!-- #{id}, #{name}, #{pwd} 是对象中的属性 -->
-    <insert id="addUser" parameterType="User">
-        insert into mybatis.user (id, name, pwd) values (#{id}, #{name}, #{pwd});
-    </insert>
-
-    <!-- update修改用户 -->
-    <update id="updateUser" parameterType="User">
-        update mybatis.user set name=#{name}, pwd=#{pwd} where id=#{id};
-    </update>
-
-    <!-- delete删除用户 -->
-    <delete id="deleteUserById" parameterType="int">
-        delete from mybatis.user where id = #{id};
-    </delete>
-
-
-
-
-    <!--
-        万能的 map
-    -->
-    <!-- #{userId}, #{userName}, #{password} 是map中的key -->
-    <insert id="addUserUsingMap" parameterType="map">
-        insert into mybatis.user (id, name, pwd) values (#{userId}, #{userName}, #{password});
-    </insert>
-
-
-
-    <!--
-        模糊查询
-        select * from mybatis.user where name like #{value};   Java代码层面需要增加 %
-    -->
-    <select id="getUserLike" resultType="User">
-        select * from mybatis.user where name like "%"#{value}"%";  -- Java代码层面不需要增加 %
-    </select>
-
 
 </mapper>
