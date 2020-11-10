@@ -8,6 +8,16 @@
     <!-- 其实是先读取 properties 标签内的属性，然后读取配置文件中的属性，配置文件中的属性覆盖了标签内的属性 -->
     <properties resource="db.properties"/>
 
+    <!-- 设置 https://mybatis.org/mybatis-3/zh/configuration.html#settings -->
+    <settings>
+        <!--
+            日志：SLF4J | LOG4J | LOG4J2 | JDK_LOGGING | COMMONS_LOGGING | STDOUT_LOGGING | NO_LOGGING
+                LOG4J、STDOUT_LOGGING比较常用
+            LOG4J : 是一个标准的日志实现，使用之前需要导包
+        -->
+        <!--<setting name="logImpl" value="STDOUT_LOGGING"/>-->
+        <setting name="logImpl" value="LOG4J"/>
+    </settings>
 
 
     <!-- 类型别名可为 Java 类型设置一个缩写名字。 它仅用于 XML 配置，意在降低冗余的全限定类名书写 -->

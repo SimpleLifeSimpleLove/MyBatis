@@ -3,13 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="42655b57-4bb7-43cf-aee8-15e077491716" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-04/src/main/java/com/wxx/dao/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-04/src/main/java/com/wxx/dao/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-04/src/main/java/com/wxx/dao/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-04/src/main/java/com/wxx/dao/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-04/src/main/java/com/wxx/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-04/src/main/java/com/wxx/pojo/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-04/src/main/java/com/wxx/utils/MyBatisUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-04/src/main/java/com/wxx/utils/MyBatisUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-04/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-04/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-04/src/main/resources/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-04/src/main/resources/mybatis-config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybatis-04/src/test/java/com/wxx/dao/UserDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-04/src/test/java/com/wxx/dao/UserDaoTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-04/target/classes/com/wxx/dao/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-04/target/classes/com/wxx/dao/UserMapper.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybatis-04/target/classes/com/wxx/dao/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-04/target/classes/com/wxx/dao/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mybatis-04/target/classes/mybatis-config.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-04/target/classes/mybatis-config.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/mybatis-04/target/test-classes/com/wxx/dao/UserDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-04/target/test-classes/com/wxx/dao/UserDaoTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -81,6 +79,7 @@
     </option>
     <option name="importingSettings">
       <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
         <option name="vmOptionsForImporter" value="-Xmx768m" />
       </MavenImportingSettings>
     </option>
@@ -119,7 +118,7 @@
       <recent name="D:\Code\github\Mybatis\Mybatis-Base\jdbc\lib" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserDaoTest.testGetUserById">
+  <component name="RunManager" selected="JUnit.UserDaoTest.testLog4j">
     <configuration name="UserDaoTest.testDeleteUserById (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis-03" />
       <extension name="coverage">
@@ -184,8 +183,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserDaoTest.testGetUserLike" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis-02" />
+    <configuration name="UserDaoTest.testLog4j" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-04" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.wxx.dao.*" />
@@ -194,7 +193,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.wxx.dao" />
       <option name="MAIN_CLASS_NAME" value="com.wxx.dao.UserDaoTest" />
-      <option name="METHOD_NAME" value="testGetUserLike" />
+      <option name="METHOD_NAME" value="testLog4j" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -202,11 +201,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.UserDaoTest.testLog4j" />
         <item itemvalue="JUnit.UserDaoTest.testGetUserById" />
         <item itemvalue="JUnit.UserDaoTest.testGetList (1)" />
         <item itemvalue="JUnit.UserDaoTest.testGetList" />
         <item itemvalue="JUnit.UserDaoTest.testDeleteUserById (1)" />
-        <item itemvalue="JUnit.UserDaoTest.testGetUserLike" />
       </list>
     </recent_temporary>
   </component>
@@ -252,7 +251,7 @@
       <workItem from="1604913874882" duration="6738000" />
       <workItem from="1604969424403" duration="76000" />
       <workItem from="1604998550814" duration="3180000" />
-      <workItem from="1605006952947" duration="316000" />
+      <workItem from="1605006952947" duration="1913000" />
     </task>
     <servers />
   </component>
@@ -280,22 +279,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="665" y="336" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1604841495044" />
-    <state width="1877" height="307" key="GridCell.Tab.0.bottom" timestamp="1605006899090">
+    <state width="1877" height="263" key="GridCell.Tab.0.bottom" timestamp="1605009001200">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="307" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605006899090" />
-    <state width="1877" height="307" key="GridCell.Tab.0.center" timestamp="1605006899090">
+    <state width="1877" height="263" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605009001200" />
+    <state width="1877" height="263" key="GridCell.Tab.0.center" timestamp="1605009001200">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="307" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605006899090" />
-    <state width="1877" height="307" key="GridCell.Tab.0.left" timestamp="1605006899090">
+    <state width="1877" height="263" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605009001200" />
+    <state width="1877" height="263" key="GridCell.Tab.0.left" timestamp="1605009001200">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="307" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605006899090" />
-    <state width="1877" height="307" key="GridCell.Tab.0.right" timestamp="1605006899090">
+    <state width="1877" height="263" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605009001200" />
+    <state width="1877" height="263" key="GridCell.Tab.0.right" timestamp="1605009001200">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="307" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605006899090" />
+    <state width="1877" height="263" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605009001200" />
     <state width="1877" height="348" key="GridCell.Tab.1.bottom" timestamp="1605006899087">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -10,8 +10,9 @@
     <!-- 结果集映射，目的是解决数据库中的字段和pojo中的字段不一致的问题 -->
     <resultMap id="UserMap" type="User">
         <!-- column : 数据库中的字段; property : pojo中实体类中的属性 -->
-        <result column="id" property="id"/>
-        <result column="name" property="name"/>
+        <!-- 只需要映射不一样的字段即可 -->
+        <!--<result column="id" property="id"/>-->
+        <!--<result column="name" property="name"/>-->
         <result column="pwd" property="password"/>
     </resultMap>
 
