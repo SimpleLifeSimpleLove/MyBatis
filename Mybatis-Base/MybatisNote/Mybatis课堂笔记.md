@@ -1147,7 +1147,7 @@ public interface UserMapper {
 
 
 **#{}     ${} 区别**
-
+\#{}可以防止sql注入
 
 
 ## 9、Lombok
