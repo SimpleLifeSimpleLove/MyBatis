@@ -9,6 +9,7 @@
 
     <!-- 结果集映射，目的是解决数据库中的字段和pojo中的字段不一致的问题 -->
     <resultMap id="UserMap" type="User">
+        <!-- 数据库中为pwd, User中的字段为password -->
         <result column="pwd" property="password"/>
     </resultMap>
 
