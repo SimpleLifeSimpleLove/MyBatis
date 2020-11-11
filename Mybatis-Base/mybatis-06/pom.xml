@@ -12,6 +12,15 @@
     <artifactId>mybatis-06</artifactId>
 
     <!-- 此模块演示注解 -->
+    <!-- lombok的使用 -->
+
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <version>1.18.10</version>
+        </dependency>
+    </dependencies>
 
 
 </project>
