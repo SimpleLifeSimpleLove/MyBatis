@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-config.dtd">
+<configuration>
+
+    <!-- 引入外部配置文件, properties也可以是一对标签, 里面写键值对，如果和配置文件重复，优先使用配置文件的内容 -->
+    <!-- 其实是先读取 properties 标签内的属性，然后读取配置文件中的属性，配置文件中的属性覆盖了标签内的属性 -->
+    <properties resource="db.properties"/>
+
+
+    <!-- 类型别名可为 Java 类型设置一个缩写名字。 它仅用于 XML 配置，意在降低冗余的全限定类名书写 -->
+    <typeAliases>
+        <!-- 为每个类起别名 -->
+        <!--<typeAlias type="com.wxx.pojo.User" alias="User"/>-->
+        <!--
+            包扫描 : 扫描实体类的包，包下的JavaBean的默认别名就是这个类的类名，首字母小写(大写也行)
+                这种方式一般不能自定义别名，但是通过注解可以实现自定义别名(@Alias("user")), 大小写不敏感
+        -->
+        <package name="com.wxx.pojo"/>
+    </typeAliases>
+
+
+
+    <!-- 通过default可以切换环境 -->
+    <environments default="properties">
+        <environment id="development">
+            <!-- transactionManager : 事务管理器。有两种类型：JDBC和MANAGED -->
+            <transactionManager type="JDBC"/>
+            <!-- dataSource : 数据源。有三种类型：UNPOOLED、POOLED、JNDI -->
+            <dataSource type="POOLED">
+                <!-- property : 属性。我们可以通过property属性来实现引用配置文件 -->
+                <property name="driver" value="com.mysql.jdbc.Driver"/>
+                <property name="url" value="jdbc:mysql://172.17.82.113:3306/mybatis"/>
+                <property name="username" value="mmall"/>
+                <property name="password" value="123456"/>
+            </dataSource>
+        </environment>
+
+        <environment id="properties">
+            <transactionManager type="JDBC"/>
+            <dataSource type="POOLED">
+                <property name="driver" value="${driverClass}"/>
+                <property name="url" value="${url}"/>
+                <property name="username" value="${user}"/>
+                <property name="password" value="${password}"/>
+            </dataSource>
+        </environment>
+    </environments>
+
+
+
+    <!-- 注册绑定我们的mapper.xml文件 -->
+    <!-- 每一个mapper.xml 都需要在NyBatis核心配置文件中注册 -->
+    <!-- 只有配置了 mappers 信息后，MyBatis 才知道去哪里加载 Mapper 映射文件 -->
+    <mappers>
+        <!-- 方式一：直接指定UserMapper.xml的位置。推荐使用!!! -->
+        <!--<mapper resource="com/wxx/dao/UserMapper.xml"/>-->
+
+        <!--
+            方式二：使用class文件完成绑定，有以下注意点：
+                (1) 接口和它的配置文件必须同名!
+                (1) 接口和它的配置文件必须在同一个包下!
+        -->
+        <mapper class="com.wxx.dao.StudentMapper"/>
+        <mapper class="com.wxx.dao.TeacherMapper"/>
+
+        <!--
+            方式三：使用包扫描，有以下注意点：
+                (1) 接口和它的配置文件必须同名!
+                (1) 接口和它的配置文件必须在同一个包下!
+        -->
+        <!--<package name="com.wxx.dao"/>-->
+    </mappers>
+
+</configuration>
