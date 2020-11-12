@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42655b57-4bb7-43cf-aee8-15e077491716" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +35,13 @@
         <item name="MySQL - @172.17.82.113" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="mybatis: schema" type="76f4a085:MysqlImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="MySQL - @172.17.82.113" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="mybatis: schema" type="76f4a085:MysqlImplModel$Schema" />
+        <item name="user: table" type="285a2a93:MysqlImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -160,22 +165,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StudentMapperTest.testGetTeacher" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="mybatis-07" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wxx.dao.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.wxx.dao" />
-      <option name="MAIN_CLASS_NAME" value="com.wxx.dao.StudentMapperTest" />
-      <option name="METHOD_NAME" value="testGetTeacher" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TeacherMapperTest.testGetTeacher (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis-08" />
       <extension name="coverage">
@@ -192,13 +181,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TeacherMapperTest.testGetTeacher2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="mybatis-08" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wxx.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.wxx.dao" />
+      <option name="MAIN_CLASS_NAME" value="com.wxx.dao.TeacherMapperTest" />
+      <option name="METHOD_NAME" value="testGetTeacher2" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.TeacherMapperTest.testGetTeacher (1)" />
+        <item itemvalue="JUnit.TeacherMapperTest.testGetTeacher2" />
         <item itemvalue="JUnit.StudentMapperTest.testGetStudent (1)" />
         <item itemvalue="JUnit.StudentMapperTest.testGetStudent2" />
         <item itemvalue="JUnit.StudentMapperTest.testGetStudent" />
-        <item itemvalue="JUnit.StudentMapperTest.testGetTeacher" />
       </list>
     </recent_temporary>
   </component>
@@ -215,7 +220,7 @@
               <path>
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="MySQL - @172.17.82.113: root" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="com.intellij.database.console.session.MessageBusSession@591dbf40" type="9fbbdea:ServiceModel$ServiceNode" />
+                <item name="com.intellij.database.console.session.MessageBusSession@7514c692" type="9fbbdea:ServiceModel$ServiceNode" />
               </path>
             </expand>
             <select />
@@ -250,7 +255,7 @@
       <workItem from="1605097241380" duration="448000" />
       <workItem from="1605097717545" duration="3792000" />
       <workItem from="1605168988139" duration="4362000" />
-      <workItem from="1605176539111" duration="667000" />
+      <workItem from="1605176539111" duration="3595000" />
     </task>
     <servers />
   </component>
@@ -286,22 +291,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="665" y="336" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605101805349" />
-    <state width="1877" height="273" key="GridCell.Tab.0.bottom" timestamp="1605173469562">
+    <state width="1877" height="275" key="GridCell.Tab.0.bottom" timestamp="1605180372473">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="273" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605173469562" />
-    <state width="1877" height="273" key="GridCell.Tab.0.center" timestamp="1605173469561">
+    <state width="1877" height="275" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605180372473" />
+    <state width="1877" height="275" key="GridCell.Tab.0.center" timestamp="1605180372472">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="273" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605173469561" />
-    <state width="1877" height="273" key="GridCell.Tab.0.left" timestamp="1605173469561">
+    <state width="1877" height="275" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605180372472" />
+    <state width="1877" height="275" key="GridCell.Tab.0.left" timestamp="1605180372472">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="273" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605173469561" />
-    <state width="1877" height="273" key="GridCell.Tab.0.right" timestamp="1605173469561">
+    <state width="1877" height="275" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605180372472" />
+    <state width="1877" height="275" key="GridCell.Tab.0.right" timestamp="1605180372472">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="273" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605173469561" />
+    <state width="1877" height="275" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605180372472" />
     <state width="1877" height="340" key="GridCell.Tab.1.bottom" timestamp="1605016968927">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -318,10 +323,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="340" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605016968927" />
-    <state width="278" height="477" key="HiddenNamespacesPopup" timestamp="1605098802154">
+    <state width="278" height="477" key="HiddenNamespacesPopup" timestamp="1605177403694">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="278" height="477" key="HiddenNamespacesPopup/0.0.1920.1040@0.0.1920.1040" timestamp="1605098802154" />
+    <state width="278" height="477" key="HiddenNamespacesPopup/0.0.1920.1040@0.0.1920.1040" timestamp="1605177403694" />
     <state x="232" y="165" width="1217" height="710" key="SettingsEditor" timestamp="1605097695609">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
