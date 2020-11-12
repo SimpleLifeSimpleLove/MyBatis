@@ -9,8 +9,6 @@
 
     <!--
         思路：联表查询(按照结果嵌套处理)   常用
-            (1) 查询所有的学生信息;
-            (2) 根据查询出来的学生的tid，寻找对应的老师
     -->
     <select id="getStudent2" resultMap="ST2">
         select s.id sid, s.name sname, t.name tname
