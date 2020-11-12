@@ -11,7 +11,7 @@
 
     <artifactId>mybatis-07</artifactId>
 
-    <!-- lombok的使用 -->
+    <!-- pojo中多对一的处理，例如：多个学生对应一个老师 -->
 
     <dependencies>
         <dependency>

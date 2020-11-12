@@ -7,6 +7,55 @@
 <!-- namespace中的包名要和Mapper接口的包名一致 -->
 <mapper namespace="com.wxx.dao.StudentMapper">
 
+    <!--
+        思路：(按照结果嵌套处理)   常用
+            (1) 查询所有的学生信息;
+            (2) 根据查询出来的学生的tid，寻找对应的老师
+    -->
+    <select id="getStudent2" resultMap="ST2">
+        select s.id sid, s.name sname, t.name tname
+        from mybatis.student s, mybatis.teacher t
+        where s.tid = t.id;
+    </select>
+    <resultMap id="ST2" type="Student">
+        <!-- 数据库中查询出来的sid(别名)对应Student(pojo)中的id -->
+        <result property="id" column="sid"/>
+        <!-- 数据库中查询出来的sname(别名)对应Student(pojo)中的name -->
+        <result property="name" column="sname"/>
+        <!-- 数据库中查询出来的是tid, 根据这个tid可以找到对应的Teacher 然后找出Teacher中的姓名即可 -->
+        <association property="teacher" javaType="Teacher">
+            <!-- 数据库中查询出来的tname(别名)对应Teacher(pojo)中的name -->
+            <result property="name" column="tname"/>
+        </association>
+    </resultMap>
+
+    <!--====================================================================-->
+
+    <!--
+        思路：子查询(按照查询嵌套处理)
+            (1) 查询所有的学生信息;
+            (2) 根据查询出来的学生的tid，寻找对应的老师
+    -->
+    <!-- (1) 查询所有的学生信息; -->
+    <select id="getStudent" resultMap="ST">
+        select * from mybatis.student;
+    </select>
+    <!-- 这里的id是怎么传递过来的？因为这只有一个属性，可以写任何内容 -->
+    <select id="getTeacher" resultType="Teacher">
+        select * from mybatis.teacher where id = #{notId};
+    </select>
+    <resultMap id="ST" type="Student">
+        <!-- column为数据库中的字段, property为javaBean中的字段 -->
+        <result column="id" property="id"/>
+        <result column="name" property="name"/>
+        <!--
+            复杂的属性，需要单独处理：
+                对象：association
+                集合：collection
+        -->
+        <!-- (2) 根据查询出来的学生的tid，寻找对应的老师 -->
+        <association property="teacher" column="tid" javaType="Teacher" select="getTeacher"/>
+    </resultMap>
 
 
 </mapper>
