@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="42655b57-4bb7-43cf-aee8-15e077491716" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mybatis-09/target/classes/com/wxx/dao/BlogMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mybatis-09/target/classes/com/wxx/dao/BlogMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +117,7 @@
       <recent name="D:\Code\github\Mybatis\Mybatis-Base\mybatis-08\src\main\java\com\wxx" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.UserMapperTest.testQueryUserById2">
+  <component name="RunManager" selected="JUnit.BlogMapperTest.testQueryBlogForeach">
     <configuration name="BlogMapperTest.testQueryBlogForeach" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="mybatis-09" />
       <extension name="coverage">
@@ -202,9 +199,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BlogMapperTest.testQueryBlogForeach" />
         <item itemvalue="JUnit.UserMapperTest.testQueryUserById2" />
         <item itemvalue="JUnit.UserMapperTest.testQueryUserById" />
-        <item itemvalue="JUnit.BlogMapperTest.testQueryBlogForeach" />
         <item itemvalue="JUnit.BlogMapperTest.testUpdateBlog" />
         <item itemvalue="JUnit.UserMapperTest" />
       </list>
@@ -264,7 +261,8 @@
       <workItem from="1605336295604" duration="211000" />
       <workItem from="1605360788790" duration="697000" />
       <workItem from="1605361524644" duration="1346000" />
-      <workItem from="1605362905830" duration="244000" />
+      <workItem from="1605362905830" duration="424000" />
+      <workItem from="1605410651246" duration="95000" />
     </task>
     <servers />
   </component>
@@ -272,6 +270,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="552" y="181" key="#Project_Structure" timestamp="1605773021908">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="181" key="#Project_Structure/0.0.1920.1040@0.0.1920.1040" timestamp="1605773021908" />
     <state x="552" y="181" key="#SQL_Dialects" timestamp="1605098786263">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -300,22 +302,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="665" y="336" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1605101805349" />
-    <state width="1877" height="260" key="GridCell.Tab.0.bottom" timestamp="1605363157559">
+    <state width="1877" height="305" key="GridCell.Tab.0.bottom" timestamp="1605363330797">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="260" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605363157559" />
-    <state width="1877" height="260" key="GridCell.Tab.0.center" timestamp="1605363157558">
+    <state width="1877" height="305" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1605363330797" />
+    <state width="1877" height="305" key="GridCell.Tab.0.center" timestamp="1605363330796">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="260" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605363157558" />
-    <state width="1877" height="260" key="GridCell.Tab.0.left" timestamp="1605363157558">
+    <state width="1877" height="305" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1605363330796" />
+    <state width="1877" height="305" key="GridCell.Tab.0.left" timestamp="1605363330796">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="260" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605363157558" />
-    <state width="1877" height="260" key="GridCell.Tab.0.right" timestamp="1605363157559">
+    <state width="1877" height="305" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1605363330796" />
+    <state width="1877" height="305" key="GridCell.Tab.0.right" timestamp="1605363330797">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="260" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605363157559" />
+    <state width="1877" height="305" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1605363330796" />
     <state width="1877" height="340" key="GridCell.Tab.1.bottom" timestamp="1605016968927">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

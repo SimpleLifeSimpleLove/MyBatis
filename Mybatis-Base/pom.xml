@@ -10,15 +10,27 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
+        <!--搭建环境-->
         <module>mybatis-01</module>
+        <!-- 此模块演示MyBatis处理增删改查问题 -->
         <module>mybatis-02</module>
+        <!-- 此模块说明MyBatis核心配置文件使用 -->
         <module>mybatis-03</module>
+        <!-- 此模块演示 ResultMap 的使用 -->
+        <!-- 此模块演示 日志 的使用 -->
         <module>mybatis-04</module>
+        <!-- 此模块演示分页 -->
         <module>mybatis-05</module>
+        <!-- 此模块演示注解 -->
+        <!-- lombok的使用 -->
         <module>mybatis-06</module>
+        <!-- pojo中多对一的处理，例如：多个学生对应一个老师 -->
         <module>mybatis-07</module>
+        <!-- pojo中一对多的处理，例如：一个老师对应多个学生 -->
         <module>mybatis-08</module>
+        <!-- 动态SQL -->
         <module>mybatis-09</module>
+        <!-- 缓存 -->
         <module>mybatis-10</module>
     </modules>
 
